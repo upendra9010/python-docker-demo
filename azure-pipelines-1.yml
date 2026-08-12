@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: new-pool
+  name: new-pool
 
 steps:
 - script: echo Hello, world!
