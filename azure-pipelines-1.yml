@@ -16,3 +16,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'docker build -t myimage .'
+
+- task: CmdLine@2
+  inputs:
+    script: 'docker run -itd --name c1 -p 8000:8000 myimage'
