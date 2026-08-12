@@ -15,4 +15,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'docker build -t upendra9010/azure:myapp .'
+    script: 'docker build -t upendra9010/azure:myimage .'
